@@ -1,58 +1,119 @@
-# 💻GUVI_LLM_PROJECT
-This project involves training a GUVI Generative Pre-trained Transformer (GPT) model using data from GUVI. The model is designed to generate coherent and contextually relevant text based on the input provided.
+# 💻 GUVI LLM Project – GPT-2 Fine-Tuning & Deployment
 
-Here  i have trained our model through getting the data's from GUVI webpage, Linkedin, Wikipedia, GitHub, FB, Instagram.
+This project focuses on fine-tuning a GPT-2 based language model using domain-specific data related to GUVI and deploying it as a real-time web application using Hugging Face Spaces.
 
-# 🗳️problem statement
+The system generates contextually relevant and coherent text responses based on user input.
 
-The task is to deploy a fine-tuned GPT model, trained specifically on GUVI’s company data, using
-Hugging Face services. Students are required to create a scalable and secure web application
-using Streamlit or Gradio, making the model accessible to users over the internet. The deployment
-should leverage Hugging Face spaces resources and any database to store the username and
-login time.
+---
 
+## 🧩 Problem Statement
 
-# 🧮Objective
-To deploy a pre-trained or Fine tuned GPT model using HUGGING FACE SPACES, making it
-accessible through a web application built with Streamlit or Gradio.
+Deploy a fine-tuned GPT model trained on GUVI-related data as a scalable web application.  
+The application should allow users to interact with the model in real time and be hosted using Hugging Face Spaces.
 
-# 📑use colab or high accessed RAM computer, because here we used codes are highly big running model
+---
 
-# 🧰Skills Takeaway
+## 🎯 Objective
 
-* Python
-* Deep Learning
-* Transformers
-* Hugging face models
-* LLM
-* Streamlit
+- Fine-tune a GPT-2 model using custom dataset  
+- Build an interactive web interface using Streamlit  
+- Deploy the model using Hugging Face Spaces  
+- Enable real-time text generation for users  
 
-# 🏁Technologies used
-* Python 3.8+
-* PyTorch
-* Transformers (Hugging Face)
-* Streamlit
-* Accelarate-u
+---
 
+## 🏗️ System Architecture
 
-# 🪕model here we used
+User Input → Streamlit UI → GPT-2 Model → Generated Output
 
-The model architecture is based on OpenAI's GPT-2. GPT-2 is a transformer-based model that uses unsupervised learning to generate human-like text. The model has been fine-tuned using the collected dataset to improve its performance on specific tasks.
+---
 
-# ⚓ proper ordered procedure
+## 📊 Dataset
 
-* Data Collection: Text data is collected from various websites to create a comprehensive dataset.
-* Data Preprocessing: The text data is cleaned and preprocessed to remove any irrelevant information and format it suitably for training.
-* Tokenization: The text data is tokenized using the GPT-2 tokenizer.
-* Fine-tuning: The GPT-2 model is fine-tuned using the preprocessed and tokenized text data
+Data was collected from multiple sources:
+- GUVI website
+- LinkedIn
+- Wikipedia
+- GitHub
+- Social media platforms
 
+The dataset was curated and cleaned before training.
 
-# 📋Finetuning
-Fine-tune the model in Google Colab and export it:
+---
 
-Open the Colab notebook and run the training script.
-Download the fine-tuned model
+## ⚙️ Methodology
 
-#  🎯Finally Upload to Hugging Face in the space,the entire code you having upload in it.
+1. **Data Collection**  
+   Collected domain-specific textual data  
 
-https://huggingface.co/spaces/rajann/llm_gpt_model/tree/main --->> this is our model's deployment link in hugging face
+2. **Data Preprocessing**  
+   Cleaned and structured text for training  
+
+3. **Tokenization**  
+   Used GPT-2 tokenizer  
+
+4. **Model Fine-Tuning**  
+   Fine-tuned GPT-2 using HuggingFace Transformers  
+
+5. **Deployment**  
+   Hosted the model on Hugging Face Spaces with Streamlit  
+
+---
+
+## 🤖 Model Details
+
+- Base Model: GPT-2  
+- Framework: HuggingFace Transformers  
+- Training Platform: Google Colab  
+- Token Size: ~10,000 tokens  
+
+---
+
+## 🚀 Live Demo
+
+👉 https://huggingface.co/spaces/rajann/guvi-llm_model  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- PyTorch  
+- HuggingFace Transformers  
+- Streamlit  
+- HuggingFace Spaces  
+
+---
+
+## 📈 Results
+
+- Improved text coherence and contextual relevance  
+- Reduced repetitive output through fine-tuning  
+- Enabled real-time inference via deployed application  
+
+---
+
+## 📌 Key Features
+
+- End-to-end LLM pipeline (data → training → deployment)  
+- Real-time text generation  
+- Lightweight and accessible web interface  
+- Cloud deployment using Hugging Face Spaces  
+
+---
+
+## 🔮 Future Improvements
+
+- Add evaluation metrics (Perplexity / BLEU score)  
+- Improve dataset quality and size  
+- Add FastAPI backend for production use  
+- Implement user session tracking and logging  
+
+---
+
+## ⚠️ Notes
+
+- Training requires high RAM (recommended: Google Colab or high-performance system)  
+- Model performance depends on dataset quality  
+
+---
