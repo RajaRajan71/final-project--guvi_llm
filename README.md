@@ -17,7 +17,27 @@ Deploy a fine-tuned GPT model trained on GUVI-related data as a scalable web app
 The application should allow users to interact with the model in real time and be hosted using Hugging Face Spaces.
 
 ---
+## 📸 Demo
 
+### 🏠 Home
+![Home](images/gpt2_home.png)
+
+---
+
+### 💬 Prompt Input
+![Prompting](images/gpt2_prompting.png)
+
+---
+
+### 🤖 Generated Response
+![Generated Response](images/gpt2_chat_generate.png)
+
+---
+
+### 🌡️ Temperature Adjustment
+![Temperature](images/gpt2_temp_adjust.png)
+
+---
 ## 🎯 Objective
 
 - Fine-tune a GPT-2 model using custom dataset  
