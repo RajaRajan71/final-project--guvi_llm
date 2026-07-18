@@ -2,6 +2,11 @@
 
 This project focuses on fine-tuning a GPT-2 based language model using domain-specific data related to GUVI and deploying it as a real-time web application using Hugging Face Spaces.
 
+## 🚀 Live Demo
+
+👉 https://huggingface.co/spaces/rajann/guvi-llm_model  
+
+---
 The system generates contextually relevant and coherent text responses based on user input.
 
 ---
@@ -69,11 +74,6 @@ The dataset was curated and cleaned before training.
 
 ---
 
-## 🚀 Live Demo
-
-👉 https://huggingface.co/spaces/rajann/guvi-llm_model  
-
----
 
 ## 🛠️ Tech Stack
 
